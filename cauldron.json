@@ -1,0 +1,59 @@
+{
+  "nativeApps": [
+    {
+      "name": "SmartPlan",
+      "platforms": [
+        {
+          "name": "android",
+          "versions": [
+            {
+              "name": "1.0.0",
+              "isReleased": true,
+              "binary": null,
+              "yarnLocks": {
+                "container": "3f5f0e4bac859b9e83adacacc2141e594ac1403d"
+              },
+              "codePush": {
+                "Production": [
+                  {
+                    "metadata": {
+                      "deploymentName": "Production",
+                      "isMandatory": true,
+                      "appVersion": "1.0.0",
+                      "size": 1877208,
+                      "releaseMethod": "Release",
+                      "label": "v16",
+                      "releasedBy": "whoever@whatever.com",
+                      "rollout": 100
+                    },
+                    "miniapps": [
+                      "movielistminiapp@0.0.11",
+                      "https://github.com/electrode-io/moviedetails-miniapp#0.0.9"
+                    ],
+                    "jsApiImpls": []
+                  }
+                ]
+              },
+              "containerVersion": "1.0.9",
+              "container": {
+                "nativeDeps": [
+                  "react-native-code-push@5.2.1",
+                  "react-native-ernmovie-api@0.0.9",
+                  "react-native-ernnavigation-api@0.0.4",
+                  "react-native@0.52.2",
+                  "react-native-electrode-bridge@1.5.9"
+                ],
+                "miniApps": [
+                  "movielistminiapp@0.0.10",
+                  "https://github.com/electrode-io/moviedetails-miniapp#0.0.9"
+                ],
+                "jsApiImpls": [],
+                "ernPlatformVersion": "0.24.0"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
