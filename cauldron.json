@@ -11,7 +11,7 @@
               "isReleased": true,
               "binary": null,
               "yarnLocks": {
-                "container": "3f5f0e4bac859b9e83adacacc2141e594ac1403d"
+                "container": "2bc64bf14daafa4ee943ece4adf6ee12e4176ee67f11c09d43ad3a0adf9248b0"
               },
               "codePush": {
                 "Production": [
